@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    flex:1;
+}
+
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /*background-color: #000; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110,110,110,0.3),
+        rgba(0,0,0,0.8));
+}
+
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+
+.text01{
+    height: 73px;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.5px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.logo{height: 230px;text-align: center;padding-top: 132px;}
+
+.bt00{
+    height: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+/* 서브페이지 시작 */
+
+
+.b01{
+    width: 100%; height: 1238px; background-image: url(img/img01.png);
+    background-repeat: no-repeat; background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.b02{
+    width: 430px; height: 254px;
+    position: relative;
+}
+
+.b02 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.b03{width: 100%; height: 80px;background-image: url(img/img02.png);
+    background-repeat: no-repeat; background-position: center;}
+
+.b04{width: 100%; height: 500px;background-image: url(img/img03.png);
+    background-repeat: no-repeat;}
+
+.b05{width: 100%; height: 500px;background-image: url(img/img04.png);
+    background-repeat: no-repeat; background-position: center;}
+.b06{width: 100%; height: 500px;background-image: url(img/img05.png);
+    background-repeat: no-repeat; background-position: center;}
+
+footer{width: 100%; height:214px;background-image: url(img/img06.png);
+    background-repeat: no-repeat; background-position: center;}
+
+.b01 .text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+
+
+.txt08{
+    width: 116px;
+    height: 41px;
+    position: relative;
+    top: 98px;
+    left: 186px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt10{
+    width: 154px;
+    height: 46px;
+    position: absolute;
+    top: 1852px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt12{
+    width: 116px;
+    height: 46px;
+    position: absolute;
+    top: 2170px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt13{
+    width: 220px;
+    height: 68px;
+    position: absolute;
+    top: 2226px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    /* text-align: center; */
+    font-size: 15px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt14{
+    width: 240px;
+    height: 46px;
+    position: absolute;
+    top: 2350px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    /*text-align: center; */
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt15{
+    width: 225px;
+    height: 56px;
+    position: absolute;
+    top: 2408px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    /* text-align: center; */
+    font-size: 12px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt16{
+    width: 130px;
+    height: 46px;
+    position: absolute;
+    top: 2680px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    /*text-align: center; */
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt17{
+    width: 225px;
+    height: 56px;
+    position: absolute;
+    top: 2738px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    /* text-align: center; */
+    font-size: 12px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt18{
+    width: 130px;
+    height: 46px;
+    position: absolute;
+    top: 2856px;
+    left: 187px;
+    margin: 0 auto;
+    color: white;
+    font-size: 40px;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.txt19{
+    width: 225px;
+    height: 42px;
+        position: absolute;
+        top: 2920px;
+        left: 187px;
+        margin: 0 auto;
+        color: white;
+        font-size: 12px;
+        font-family: 'GmarketSansMedium';
+        font-weight: bold;
+    }
+
+    footer{
+        background-image: url(img/blizzard.png);
+        width: 430px; height: 214px;
+    }
+
+
+    .txt20{
+        width: 280px;
+        height: 24px;
+        position: relative;
+        top: 160px;
+        left: 81px;
+        color: black;
+        text-align: center;
+        font-size: 10px;
+        font-family: 'GmarketSansMedium';
+        font-weight: bold;
+    }
+
+
+.mos{
+    width: 150px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.mos#mos1{
+    top: 20px;
+    left: 131px;
+}
+
+.mos span{
+    color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'GmarketSansMedium';
+        font-weight: bold;
+}
+
+.mos > image{
+    width: 53px;
+    height: 53px;
+}
+
+
+.hero_des{
+    margin-left: 12px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'GmarketSansMedium';
+    font-weight: bold;
+}
+
+.cont{
+    position: relative;
+    width: 100%;
+    top: 20px;
+}
+
+.info{
+    position: relative;
+    left: 24px;
+    width: 399px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.cont.info:last-child{
+    margin-bottom: 0;
+}
+
+
+
+.i02{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 98px;
+    left: 24px;
+}
+
+.i03{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 280px;
+    left: 24px;
+}
